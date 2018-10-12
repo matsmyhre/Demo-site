@@ -73,3 +73,10 @@ Highcharts.chart('container', {
 });
 
 $('.js-timeline').Timeline();
+
+
+  $(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
